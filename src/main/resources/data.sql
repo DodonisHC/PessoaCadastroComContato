@@ -8,8 +8,8 @@ INSERT INTO CONTATO(nome, telefone, email, pessoa_id) VALUES('João dos Santos',
 INSERT INTO CONTATO(nome, telefone, email, pessoa_id) VALUES('Maria Pereira dos Santos', '43996477561', 'maria@email.com', 1);
 INSERT INTO CONTATO(nome, telefone, email, pessoa_id) VALUES('Mario Quintana', '43996477560', 'mario@email.com', 2);
 
-INSERT INTO PERFIL(id, nome) VALUES(1, 'ROLE_PADRAO');
-INSERT INTO PERFIL(id, nome) VALUES(2, 'ROLE_ADMINISTRADOR');
+INSERT INTO PERFIL(nome) VALUES('ROLE_PADRAO');
+INSERT INTO PERFIL(nome) VALUES('ROLE_ADMINISTRADOR');
 
 INSERT INTO USUARIO_PERFIS(usuario_id, perfis_id) VALUES(1, 1);
 INSERT INTO USUARIO_PERFIS(usuario_id, perfis_id) VALUES(2, 2);
